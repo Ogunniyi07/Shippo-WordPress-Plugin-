@@ -1,0 +1,58 @@
+.wp-shippo-tracker {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.tracking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tracking-form select,
+.tracking-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.tracking-form button {
+    padding: 10px 20px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tracking-form button:hover {
+    background: #005177;
+}
+
+.tracking-results {
+    margin-top: 20px;
+}
+
+.tracking-status {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.tracking-status h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.tracking-status .status {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0073aa;
+}
+
+.tracking-status .error {
+    color: #dc3545;
+}
